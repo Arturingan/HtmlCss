@@ -1,0 +1,38 @@
+Water Refilling Station
+
+HTML CSS
+
+Color palletes 
+#3498db - blue
+#1abc9c - green
+#ecf0f1 - light
+#34495e - dark
+
+Header -
+Logo
+Navbar
+
+
+Banner 
+https://www.youtube.com/watch?v=m8pz3yG2gZg
+
+BG pattern style
+https://www.toptal.com/designers/subtlepatterns/page/2/
+-Spikes Pattern
+
+Gradient
+https://cssgradient.io/
+-background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(25,67,131,1) 20%);
+
+Font Icon
+https://fontawesome.com/
+
+
+Font-Familly
+https://fonts.google.com/
+font-family: 'Montserrat', sans-serif;
+font-family: 'Big Shoulders Text', cursive;
+
+Pictures
+https://unsplash.com/
+https://www.pexels.com/
