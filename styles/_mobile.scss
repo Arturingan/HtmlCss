@@ -1,0 +1,105 @@
+@media screen and (max-width: 768px){
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+        .menu > ul > a > li {
+            font-size: 14px;
+            width: 130px;
+        }
+    }
+    .sale {
+        position: absolute;
+        top: 120px;
+        left: 100px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        .line-space {
+            width: 200px;
+            height: 1px;
+            background-color: $colorWM;
+        }
+    }
+    .sec1-container {
+        height: 100%;
+    }
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        .box {
+            display: flex;
+            flex-direction: column;
+            height: 370px;
+            width: 300px;
+            margin: 5px;
+            color: $colorWM;
+        }
+        & > img {
+            height: 150px;
+        }
+    } 
+    .btn1 {
+        position: absolute;
+        left: 0;
+        top: 300px;
+    }
+    .top  {
+        display: flex;
+        flex-direction: column;
+        .left { 
+            width: 100%;
+        }
+        .right {
+            width: 100%;
+        }
+    }
+    .inquire {
+        background-color: $colorBlue;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: $colorWM;
+    }
+    .reviews-card {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }   
+
+    .reviews > h1 {
+        font-size: 24px;
+    }
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-right > .input > input {
+        width: 300px; 
+    }
+    textarea { 
+        width: 400px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .contact-left {
+    width: 400px;
+    padding: 0 !important;
+    }
+    .up-btn {
+      top: 520px;
+      right: 20px;
+      &:hover {
+        font-size: 46px;
+        right: 25px;
+        top: 525px;
+        }
+    }         
+}

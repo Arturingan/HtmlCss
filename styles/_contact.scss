@@ -1,0 +1,86 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    color: #2d3436;
+    .contact-content {
+        font-size: 26px;
+        color: #2d3436;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        padding: 50px;
+    }
+    
+    .contact {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .social {
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+        .social > a {
+            color: #2d3436;
+            transition: .5s;
+        }
+        .social > a:hover {
+            color: #12c7a3;
+        }
+
+        .contact-form {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            background: linear-gradient(0deg, rgb(25, 25, 131) 0%, rgba(245,245,245,1) 10%);
+        }
+            .contact-left {
+                padding: 50px;
+            }
+            .contact-left > h3 {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+            .contact-left > p {
+                margin: 20px 0;
+                font-size: 18px;
+            }
+            .contact-left > p > i {
+                margin-right: 10px;
+            }
+            .contact-right {
+                padding: 50px;
+            }
+        
+            .contact-right > h3 {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+            .contact-right > p {
+                margin-bottom: 10px;
+            }
+            .contact-right > .input > input {
+                height: 40px;
+                width: 400px;
+                background-color:  #2d3436;
+                color: whitesmoke;
+                border: none;
+                font-size: 20px;
+                border-radius: 5px;
+            }
+            .input > textarea {
+                resize: none;
+                background-color:  #2d3436;
+                border-radius: 5px;
+                color: whitesmoke;
+            }
+            
+}
+
+

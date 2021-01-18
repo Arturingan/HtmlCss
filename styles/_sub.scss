@@ -1,0 +1,49 @@
+.sub-container {
+    padding: 50px 50px 0 50px;
+    display: flex;
+    .sub-top {
+        width: 800px;
+        color: $colorDark;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        & > img {
+            width: 800px;
+            height: 500px;
+        }
+        & > h3 {
+            margin: 20px 0;
+            font-size: 26px;
+        }
+        & > p {
+            line-height: 30px;
+        }
+    }
+    .next > a {
+        color: $colorDark;
+        .next {
+            margin: 30px 0;
+        }
+    } 
+}
+
+.sub-contact {
+    padding: 50px;
+    & > h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    & > p {
+        margin-bottom: 10px;
+    }
+    & > .input > input {
+        height: 40px;
+        width: 800px;
+        background-color:  whitesmoke;
+        color: $colorDark;
+        border: none;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+}
+   

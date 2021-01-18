@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    background-color: $colorBlue;
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $colorGreen;
+        height: auto;
+        width: 1200px;
+        margin-top: -50px;
+        padding: 10px;
+    }
+    .card {
+        background-color: $colorGreen;
+        height: 150px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        color: $colorWM;
+       & > p {
+            font-size: 18px;
+        }
+    }
+      
+    .line-space {
+        height: 100px;
+        width: 1px;
+        background-color: whitesmoke;
+    }   
+ }
+ 

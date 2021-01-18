@@ -1,0 +1,29 @@
+.box2 {
+    display: flex;
+    justify-content: center;
+}
+.col1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+height: 300px;
+width: 290px;
+margin: 5px;
+color: whitesmoke;
+position: relative;
+}
+.box > img {
+    height: 200px;
+    
+}
+.box > h3{
+    font-family: 'Big Shoulders Text', cursive;
+    letter-spacing: 2px;
+}
+.box > p {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}

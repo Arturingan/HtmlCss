@@ -1,0 +1,43 @@
+.top  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .left {
+        padding: 50px;
+        width: 50%;
+    }
+    .right {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 50px;
+        color: $colorDark;
+        width: 50%;
+        & > h1 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        & > h3 {
+            margin-bottom: 10px;
+        }
+        & > ul {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            & > li {
+            margin-top: 10px;
+            list-style: square;
+            }
+        }
+      
+    }      
+}
+.inquire {
+    background-color: rgb(25, 25, 131);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}

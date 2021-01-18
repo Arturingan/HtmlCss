@@ -1,0 +1,89 @@
+$colorBlue:  rgb(25, 25, 131);
+$colorWM: whitesmoke;
+$colorGreen: #12c7a3;
+$colorDark: #2d3436;
+
+@import './banner';
+@import './header';
+@import './button';
+@import './card';
+@import './section2';
+@import './about';
+@import './franchise';
+@import './customer';
+@import './contact';
+@import './footer';
+@import './mobile';
+@import './sub';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.flex {
+    display: flex;
+}
+
+.sec1-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: $colorBlue;
+    padding-top: 50px;
+}
+
+.bg-ws {
+    background-color: $colorWM;
+} 
+
+.bg-spikes {
+    background: url("../images/spikes.png");
+}   
+
+ 
+.up-btn {
+    position: fixed;
+    font-size: 56px;
+    z-index: 99px;
+    color: $colorGreen;
+    top: 550px;
+    right: 30px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    &:hover {
+        font-size: 46px;
+        right: 35px;
+        top: 550px;
+
+    }
+}    
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+   
+  
+

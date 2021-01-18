@@ -1,0 +1,50 @@
+.banner {
+    background-image: url("../images/danum_banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+    .company-name {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+        color: $colorBlue;
+        letter-spacing: 5px;
+    }
+    .lower {
+        height: 370px;
+        position: relative;
+    }
+    .sale {
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        font-size: 18px;
+        color: $colorWM;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        & > h1 {
+            font-size: 76px;
+            font-family: 'Big Shoulders Text', cursive;
+        }
+        & > .flex > p {
+            font-family: 'Big Shoulders Text', cursive;
+            margin-right: 20px;
+        }   
+    }
+    .sale-bg { 
+        background-color: $colorWM;
+        color: $colorBlue;
+        padding: 1px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 900;    
+    }
+}
