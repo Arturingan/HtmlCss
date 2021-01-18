@@ -784,13 +784,12 @@ footer {
     padding: 0 !important;
   }
   .up-btn {
-    top: 520px;
+    bottom: 50px;
     right: 20px;
   }
   .up-btn:hover {
     font-size: 46px;
-    right: 25px;
-    top: 525px;
+    right: 20px;
   }
 }
 
@@ -907,7 +906,7 @@ body {
   font-size: 56px;
   z-index: 99px;
   color: #12c7a3;
-  top: 550px;
+  bottom: 50px;
   right: 30px;
   background-color: transparent;
   outline: none;
@@ -920,6 +919,5 @@ body {
 .up-btn:hover {
   font-size: 46px;
   right: 35px;
-  top: 550px;
 }
 /*# sourceMappingURL=style.css.map */

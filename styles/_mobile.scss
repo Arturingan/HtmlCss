@@ -94,12 +94,11 @@
     padding: 0 !important;
     }
     .up-btn {
-      top: 520px;
+      bottom: 50px;
       right: 20px;
       &:hover {
         font-size: 46px;
-        right: 25px;
-        top: 525px;
+        right: 20px;
         }
     }         
 }
