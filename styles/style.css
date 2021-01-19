@@ -901,6 +901,11 @@ body {
   background: url("../images/spikes.png");
 }
 
+.bg-gradientblue {
+  background: -webkit-gradient(linear, left bottom, left top, from(whitesmoke), color-stop(20%, #191983));
+  background: linear-gradient(0deg, whitesmoke 0%, #191983 20%);
+}
+
 .up-btn {
   position: fixed;
   font-size: 56px;

@@ -50,6 +50,10 @@ body {
     background: url("../images/spikes.png");
 }   
 
+.bg-gradientblue {
+    background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgb(25, 25, 131) 20%);
+}
+
  
 .up-btn {
     position: fixed;
